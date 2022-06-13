@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(6, 20, 29);
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  /* Vamos codaaaaaR!!!!!!!!!! */
+}
+ 
+#container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 400px%;
+  margin-inline: auto;
+
+}
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  color: rgb(154, 152, 219);
+}
+p {
+  margin-bottom: 40px;
+  opacity: 0.6;
+}
+input, button {
+  display: block;
+  width: 100%;
+  
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+input {
+  margin-bottom: 20px;
+  }
+button {
+  border: none;
+  background-color: rgb(143, 148, 221);
+  color: rgb(10, 12, 27);
+  transition: filter .5s;
+}
+
+/* pseudo class : hover */
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+#resposta {
+  margin-top: 30px;
+  opacity: 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
